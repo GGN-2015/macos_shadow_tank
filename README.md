@@ -6,7 +6,7 @@ Shadow Tank PNG Based on MacOS PNG Decoder with iDOT processor.
 ## 特别鸣谢
 
 - 感谢 `cppascalinux` 大佬分析出了 PNG 交错的基本实现思路
-- 感谢 `HocRiser` 大佬协助测试 `MacOS` 上的显示效果
+- 感谢 `HocRiser` 大佬协助测试 `MacOS` 上的显示效果（`Mojave 10.14.6`）
 - 似乎 `iOS` 修改了它的图片解压算法，所以现在可能在 `iOS` 端看不到指定效果了
 
 
