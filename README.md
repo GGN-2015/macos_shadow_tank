@@ -23,7 +23,7 @@ Shadow Tank PNG Based on iOS PNG Decoder with iDOT processor.
 ## 灵感来源
 
 - 这个算法并不是我们首创的，由于我们在网上收集到过以下图片，详见 `img` 文件夹下的 `p1.png`,  `p2.png`,  `p3.png`
-- 以下图片在 `iOS` 和 `MacOS` 上能够观察到该图片裸体的版本，其他平台能看到穿衣服的版本
+- 以下图片在 `MacOS` 上能够观察到该图片裸体的版本，其他平台能看到穿衣服的版本
 
 <img src="./img/p1.png" style="width: 300px">
 
