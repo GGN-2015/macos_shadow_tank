@@ -40,3 +40,4 @@ Shadow Tank PNG Based on iOS PNG Decoder with iDOT processor.
 
 ## 使用方法
 
+- 源代码写得很乱，最近懒得重构了
