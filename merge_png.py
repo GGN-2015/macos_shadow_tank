@@ -24,7 +24,7 @@ def combine_picutre(img_path1: str, img_path2: str, aim_path: str):
 # 并存储到 sample 目录下的 merged.png 中
 def main():
     combine_picutre(
-        os.path.join(dirnow, "sample", "ios.png"),
+        os.path.join(dirnow, "sample", "macos.png"),
         os.path.join(dirnow, "sample", "android.png"),
         os.path.join(dirnow, "sample", "merged.png"),
     )
