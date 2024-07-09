@@ -1,5 +1,6 @@
 # macos_shadow_tank
-Shadow Tank PNG Based on MacOS PNG Decoder with iDOT processor.
+- Shadow Tank PNG Based on MacOS PNG Decoder with iDOT processor.
+- **经过一番调查发现新版的 MacOS 已经不再支持这种 PNG 交错了，感觉被扫进了历史的垃圾堆，可惜**
 
 
 
