@@ -49,4 +49,4 @@ Shadow Tank PNG Based on iOS PNG Decoder with iDOT processor.
 ## 算法设置
 
 - 默认在一个 “数据对” 中会压缩尽可能多的行
-- 如果要求数据对中必须只能压缩两行内容（乱码线会很密集）可以在 `src/gen_idats_new.cpp` 中 ` #define STEP_EQUALS_TWO`
+- 如果要求数据对中必须只能压缩两行内容（乱码线会很密集）可以在 `src/gen_idats_new.cpp` 中 `#define STEP_EQUALS_TWO`
