@@ -1,3 +1,9 @@
+# Image files
+src/*.png
+src/*.jpg
+src/*.txt
+src/*.out
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
