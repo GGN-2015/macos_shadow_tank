@@ -44,7 +44,8 @@
 ## 使用方法
 
 - 源代码写得很乱，最近懒得重构了
-- 运行 `merge_png.py` 可以将 `sample` 目录中的 `ios.png` 和 `android.png` 合并为 `merged.png`
+- 运行 `merge_png.py` 可以将 `sample` 目录中的 `macos.png` 和 `android.png` 合并为 `merged.png`
+- 即使你没有 2018 年以前的 macOS，你也可以运行 `preview_macos.py` 将 `sample` 目录中的 `merged.png` 拆分得到 `macos_slice.png` ，即为混合图像在老版本 macOS 下的解码效果图
 
 
 
