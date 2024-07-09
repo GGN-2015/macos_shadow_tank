@@ -32,12 +32,14 @@ Shadow Tank PNG Based on iOS PNG Decoder with iDOT processor.
 
 ## 前置条件
 
+- 在 `ubuntu22.04` 下进行测试，其他 `linux` 相关平台自行负责
 - 安装 `python3` 
 - 安装 `python3` 模块 `pillow` 以及 `tqdm`
-- 有 `zlib` 库
+- 一般来说都有：有 `zlib` 库，`g++` 和 `make`
 
 
 
 ## 使用方法
 
 - 源代码写得很乱，最近懒得重构了
+- 运行 `merge_png.py` 可以将 `sample` 中的 `ios.png` 和 `android.png` 合并为 `merged.png`
