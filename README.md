@@ -13,7 +13,7 @@ Shadow Tank PNG Based on iOS PNG Decoder with iDOT processor.
 
 ## 图片示例
 
-- 下图 `sample.png`，在 `iOS` 以及 `MacOS` 平台会观察到文字 `Hello, Apple!`
+- 下图 `sample.png`，在 `MacOS` 平台会观察到文字 `Hello, Apple!`
 - 在其他平台上，会观察到文字 `Hello, Android!`
 
 ![](./img/sample.png)
