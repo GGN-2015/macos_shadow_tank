@@ -50,3 +50,19 @@ Shadow Tank PNG Based on iOS PNG Decoder with iDOT processor.
 
 - 默认在一个 “数据对” 中会压缩尽可能多的行
 - 如果要求数据对中必须只能压缩两行内容（乱码线会很密集）可以在 `src/gen_idats_new.cpp` 中 `#define STEP_EQUALS_TWO`
+
+
+
+## 参考文献
+
+- PNG 文件格式
+  - https://en.wikipedia.org/wiki/PNG#File_format
+  - http://www.libpng.org/pub/png/spec/1.2/PNG-Contents.html
+- iDOT 块的结构
+  - https://www.hackerfactor.com/blog/index.php?/archives/895-Connecting-the-iDOTs.html
+- PNG Chunk 结构
+  - http://www.libpng.org/pub/png/spec/1.2/PNG-Chunks.html#C.IDAT
+- RFC1951 与 RFC1950：zlib 文件结构
+  - https://datatracker.ietf.org/doc/html/rfc1951
+  - https://www.ietf.org/rfc/rfc1950.txt
+
