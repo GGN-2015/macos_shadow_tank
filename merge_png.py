@@ -1,5 +1,6 @@
 import os
 import subprocess
+import shutil
 from PIL import Image
 
 # 当前项目目录
@@ -14,10 +15,10 @@ def combine_picutre(img_path1: str, img_path2: str, aim_path: str):
     Image.open(img_path2).save(os.path.join(dirnow, "src", "raw2.png"))
     old_cwd = os.getcwd()
     os.chdir(os.path.join(dirnow, "src"))
-    _ = subprocess.call(['make', 'all'])              # 编译相关 .out 文件
-    _ = subprocess.call(['bash', 'png_pipe_line.sh']) # 制作 PNG 文件
-    os.chdir(old_cwd)                                 # 恢复原先的工作目录
-    Image.open(os.path.join(dirnow, "src", "fin.png")).save(aim_path)
+    _ = subprocess.call(['make', 'all'])                          # 编译相关 .out 文件
+    _ = subprocess.call(['bash', 'png_pipe_line.sh'])             # 制作 PNG 文件
+    os.chdir(old_cwd)                                             # 恢复原先的工作目录
+    shutil.copy(os.path.join(dirnow, "src", "fin.png"), aim_path) # 拷贝
 
 # 将 sample 目录下的 ios.png 和 android.png 合并
 # 并存储到 sample 目录下的 merged.png 中

@@ -5,6 +5,7 @@ src/*.txt
 src/*.out
 src/*.bin
 sample/merged.png
+sample/ios_slice.png
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
